@@ -28,4 +28,4 @@ jobs:
         run: node scripts/createNewEthereumIdentity.js
 
       - name: Link Human to Agent
-        run: node scripts/manualLinkHumanToAgent.js --challenge "{\"name\": \"zainumq\", \"description\": \"zainumq AI Agent\"}"
+        run: node scripts/manualLinkHumanToAgent.js --challenge "{\"name\": \"zainumq\", \"description\": \"zainumq AI Agent\"}"  
